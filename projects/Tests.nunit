@@ -1,7 +1,0 @@
-﻿<NUnitProject>
-  <Settings activeconfig="Debug" processModel="Default" domainUsage="Default" />
-  <Config name="Debug" binpathtype="Auto">
-    <assembly path="..\bin\win\Debug\Epicycle.Photogrammetry_cs-Test.dll" />
-  </Config>
-  <Config name="Release" binpathtype="Auto" />
-</NUnitProject>

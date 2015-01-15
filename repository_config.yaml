@@ -1,0 +1,26 @@
+title: Epicycle.Photogrammetry (.NET)
+url: https://github.com/open-epicycle/Epicycle.Photogrammetry-cs
+summary: "Epicycle .NET photogrammetry library. Includes: Camera and image models, projections, croping"
+
+organization: Epicycle
+tags: epicycle lib library photogrammetry camera image model projection ray
+copyright: Copyright 2015 Epicycle
+license_url: http://www.apache.org/licenses/LICENSE-2.0
+
+release_notes: https://github.com/open-epicycle/Epicycle.Photogrammetry-cs/blob/ver-$version$/README.md
+
+dotnet_frameworks:
+ - net35
+ - net40
+ - net45
+
+nuget_dependencies:
+ - Epicycle.Commons-cs.0.1.6.0
+ - Epicycle.Math-cs.0.1.3.0
+
+description: |
+   Epicycle .NET photogrammetry library. Includes: Camera and image models, projections, croping
+   
+   * Details & release notes: https://github.com/open-epicycle/Epicycle.Photogrammetry-cs/blob/ver-$version$/README.md
+   * Sources: https://github.com/open-epicycle/Epicycle.Photogrammetry-cs/tree/ver-$version$
+   * Git repository: https://github.com/open-epicycle/Epicycle.Photogrammetry-cs

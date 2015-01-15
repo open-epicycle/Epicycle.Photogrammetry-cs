@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39F0DE7F-4179-4CC7-B96F-7ECD4490F6A9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Epicycle.Photogrammetry</RootNamespace>
+    <AssemblyName>Epicycle.Photogrammetry_cs</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\bin\net40\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NET40</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>..\..\bin\net40\Debug\Epicycle.Photogrammetry_cs.xml</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>..\..\bin\net40\Release\</OutputPath>
+    <DefineConstants>TRACE;NET40</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>..\..\bin\net40\Debug\Epicycle.Photogrammetry_cs.xml</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+
+    <Reference Include="Epicycle.Commons.TestUtils_cs">
+      <HintPath>..\..\externals\NuGet\Epicycle.Commons-cs.0.1.6.0\lib\net40\Epicycle.Commons.TestUtils_cs.dll</HintPath>
+    </Reference>
+    <Reference Include="Epicycle.Commons_cs">
+      <HintPath>..\..\externals\NuGet\Epicycle.Commons-cs.0.1.6.0\lib\net40\Epicycle.Commons_cs.dll</HintPath>
+    </Reference>
+    <Reference Include="clipper_library">
+      <HintPath>..\..\externals\NuGet\Epicycle.Math-cs.0.1.3.0\lib\net40\clipper_library.dll</HintPath>
+    </Reference>
+    <Reference Include="Epicycle.Math.TestUtils_cs">
+      <HintPath>..\..\externals\NuGet\Epicycle.Math-cs.0.1.3.0\lib\net40\Epicycle.Math.TestUtils_cs.dll</HintPath>
+    </Reference>
+    <Reference Include="Epicycle.Math_cs">
+      <HintPath>..\..\externals\NuGet\Epicycle.Math-cs.0.1.3.0\lib\net40\Epicycle.Math_cs.dll</HintPath>
+    </Reference>
+    <Reference Include="YamlDotNet">
+      <HintPath>..\..\externals\NuGet\YamlDotNet.3.5.0\lib\net35\YamlDotNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CameraModel.cs" />
+    <Compile Include="CameraModelUtils.cs" />
+    <Compile Include="IImageModel.cs" />
+    <Compile Include="ImageModelUtils.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransformedImageModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

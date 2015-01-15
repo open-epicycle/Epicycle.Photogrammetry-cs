@@ -1,0 +1,6 @@
+project_guid: DACA0ACA-67A2-4158-BD06-54271258ACE6
+assemblyinfo_guid: f310f5ba-4a11-4fcc-bd6b-983747c449ba
+
+external_libs:
+ - NUnit
+ - Moq
