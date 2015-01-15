@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using NUnit.Framework;
-
-using Epicycle.Math.Geometry;
+﻿using Epicycle.Math.Geometry;
 using Epicycle.Math.Geometry.Polytopes;
+using NUnit.Framework;
 
 namespace Epicycle.Photogrammetry
 {

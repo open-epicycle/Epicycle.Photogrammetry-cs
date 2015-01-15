@@ -1,5 +1,4 @@
-﻿using Epicycle.Commons;
-using Epicycle.Commons.Collections;
+﻿using Epicycle.Commons.Collections;
 using Epicycle.Math.Geometry;
 using System.Collections.Generic;
 
