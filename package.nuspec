@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Epicycle.Photogrammetry-cs</id>
+    <version>0.1.0.0</version>
+    <title>Epicycle.Photogrammetry (.NET)</title>
+    <authors>Epicycle</authors>
+    <owners>Epicycle</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/open-epicycle/Epicycle.Photogrammetry-cs</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Epicycle .NET photogrammetry library. Includes: Camera and image models, projections, croping
+
+* Details &amp; release notes: https://github.com/open-epicycle/Epicycle.Photogrammetry-cs/blob/ver-$version$/README.md
+* Sources: https://github.com/open-epicycle/Epicycle.Photogrammetry-cs/tree/ver-$version$
+* Git repository: https://github.com/open-epicycle/Epicycle.Photogrammetry-cs</description>
+    <summary>Epicycle .NET photogrammetry library. Includes: Camera and image models, projections, croping</summary>
+    <releaseNotes>https://github.com/open-epicycle/Epicycle.Photogrammetry-cs/blob/ver-$version$/README.md</releaseNotes>
+    <copyright>Copyright 2015 Epicycle</copyright>
+    <language />
+    <tags>epicycle lib library photogrammetry camera image model projection ray</tags>
+
+    <dependencies>
+      <dependency id="Epicycle.Commons-cs" version="0.1.6.0" />
+      <dependency id="Epicycle.Math-cs" version="0.1.3.0" />
+    </dependencies>
+  </metadata>
+</package>

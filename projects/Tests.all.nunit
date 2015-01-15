@@ -1,0 +1,11 @@
+<NUnitProject>
+  <Settings activeconfig="All" processModel="Default" domainUsage="Default" />
+  <Config name="All" binpathtype="Auto">
+    <assembly path="..\bin\net35\Debug\Epicycle.Photogrammetry_cs-Test.dll" />
+    <assembly path="..\bin\net35\Release\Epicycle.Photogrammetry_cs-Test.dll" />
+    <assembly path="..\bin\net40\Debug\Epicycle.Photogrammetry_cs-Test.dll" />
+    <assembly path="..\bin\net40\Release\Epicycle.Photogrammetry_cs-Test.dll" />
+    <assembly path="..\bin\net45\Debug\Epicycle.Photogrammetry_cs-Test.dll" />
+    <assembly path="..\bin\net45\Release\Epicycle.Photogrammetry_cs-Test.dll" />
+  </Config>
+</NUnitProject>
