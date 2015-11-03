@@ -15,8 +15,8 @@ dotnet_frameworks:
  - net45
 
 nuget_dependencies:
- - Epicycle.Commons-cs.0.1.6.0
- - Epicycle.Math-cs.0.1.3.0
+ - Epicycle.Commons-cs.0.1.8.0
+ - Epicycle.Math-cs.0.1.6.0
 
 description: |
    Epicycle .NET photogrammetry library. Includes: Camera and image models, projections, croping

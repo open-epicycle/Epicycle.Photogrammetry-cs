@@ -46,19 +46,19 @@
     <Reference Include="System.Xml" />
 
     <Reference Include="Epicycle.Commons.TestUtils_cs">
-      <HintPath>..\..\externals\NuGet\Epicycle.Commons-cs.0.1.6.0\lib\net35\Epicycle.Commons.TestUtils_cs.dll</HintPath>
+      <HintPath>..\..\externals\NuGet\Epicycle.Commons-cs.0.1.8.0\lib\net35\Epicycle.Commons.TestUtils_cs.dll</HintPath>
     </Reference>
     <Reference Include="Epicycle.Commons_cs">
-      <HintPath>..\..\externals\NuGet\Epicycle.Commons-cs.0.1.6.0\lib\net35\Epicycle.Commons_cs.dll</HintPath>
+      <HintPath>..\..\externals\NuGet\Epicycle.Commons-cs.0.1.8.0\lib\net35\Epicycle.Commons_cs.dll</HintPath>
     </Reference>
     <Reference Include="clipper_library">
-      <HintPath>..\..\externals\NuGet\Epicycle.Math-cs.0.1.3.0\lib\net35\clipper_library.dll</HintPath>
+      <HintPath>..\..\externals\NuGet\Epicycle.Math-cs.0.1.6.0\lib\net35\clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="Epicycle.Math.TestUtils_cs">
-      <HintPath>..\..\externals\NuGet\Epicycle.Math-cs.0.1.3.0\lib\net35\Epicycle.Math.TestUtils_cs.dll</HintPath>
+      <HintPath>..\..\externals\NuGet\Epicycle.Math-cs.0.1.6.0\lib\net35\Epicycle.Math.TestUtils_cs.dll</HintPath>
     </Reference>
     <Reference Include="Epicycle.Math_cs">
-      <HintPath>..\..\externals\NuGet\Epicycle.Math-cs.0.1.3.0\lib\net35\Epicycle.Math_cs.dll</HintPath>
+      <HintPath>..\..\externals\NuGet\Epicycle.Math-cs.0.1.6.0\lib\net35\Epicycle.Math_cs.dll</HintPath>
     </Reference>
     <Reference Include="YamlDotNet">
       <HintPath>..\..\externals\NuGet\YamlDotNet.3.5.0\lib\net35\YamlDotNet.dll</HintPath>
